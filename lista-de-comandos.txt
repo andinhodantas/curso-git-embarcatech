@@ -1,0 +1,16 @@
+Comandos usados na Tarefa 1
+
+Comandos
+mkdir curso-git: Criar o diretório com o nome Curso-git
+cd curso-git: Entrar no diretório do curso
+git init --initial-branch=main: Inicializa o repositório git dentro do diretório nomeando a Branch como main
+git config user.name “Anderson Dantas”: Definindo como nome do usuário no repositório local Anderson Dantas
+git config user.email “andersonnascimentodantas@gmail.com”: Definindo como e-mail do usuário no repositório local andersonnascimentodantas@gmail.com
+git config –-list --local: Verificar se o nome e e-mail foram salvos corretamente
+git add dados-do-aluno.txt: Adiciona o documento dados-do-aluno.txt a fila para commit
+git commit -m  “commit dos dados”: O arquivo é adicionado ao repositório local
+git remote add origin-github https://github.com/andinhodantas/curso-git-embarcatech.git: Colocando o repositório remoto no repositório local
+git push -u origin-github main: Envia os dados do repositório local para o repositório remoto
+git add lista-de-comandos.txt: Adiciona o documento lista-de-comandos.docx a fila para commit
+git commit -m  “commit da lista de Comandos”: O arquivo é adicionado ao repositório local
+git push -u origin-github main: Envia os dados do repositório local para o repositório remoto
